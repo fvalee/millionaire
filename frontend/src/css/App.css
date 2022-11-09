@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Main-centered {
+  margin: 0;
+  padding: 75px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.backShadow {
+  box-shadow: 0 0 1000px #0E6DFB;
+}
+
+.Spacer {
+  margin-bottom: 30px;
+}
+
+.option {
+  color: #ffbb33;
+  font-weight: bold;
+}
+
+.optionButton {
+  width: 100%;
+  text-align: left !important;
+  font-size: 20px !important;
+}
+
+.mainQuestionContainer {
+  padding: 0;
+  background-color: #224C97;
+  border-radius: 5px;
+}
+
+.answersRow .answerCol {
+  padding: 2px 2px;
+}
+
+.questionField {
+  text-align: center;
+  margin: 3px 2px;
+  padding: 10px;
+  background-color: #0E6DFB;
+  border-radius: 5px;
+  height: 100px;
+}
+
+h1, h4, h5 {
+  margin: 0 !important;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickedOption, .clickedOption > * {
+  background-color: #ffbb33 !important;
+  border-color: #ffbb33 !important;
+  color: black !important;
+}
+
+.correctOption, .correctOption > * {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+  color: black !important;
+}
+
+.moneyLadderElement {
+  border-radius: 5px;
+  color: #ffbb33;
+}
+
+.alignRight {
+  text-align: right;
+  width: 10px;
+}
+
+.moneyLadderElement > * {
+  padding: 2px 5px !important;
+  font-size: 20px;
+}
+
+#moneyLadderQ5, #moneyLadderQ10, #moneyLadderQ15{
+  color: white;
+}
+
+.currentWinnings {
+  background-color: #ffbb33 !important;
+  color: black !important;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 !important;
+}
+
+ul > li:nth-child(-n+5) {
+  background-color: #ffbb33;
+  color: black
+}
+
+.optionRow {
+  background-color: #0E6DFB;
+  margin: 5px 0;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+
